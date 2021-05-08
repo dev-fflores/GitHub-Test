@@ -6,6 +6,7 @@ public class JumpScript : MonoBehaviour
 {
     //This comment
     //Second comment
+    //Third comment
     // Start is called before the first frame update
     void Start()
     {
