@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class JumpScript : MonoBehaviour
 {
-    //This comment
-    // Start is called before the first frame update
+    Transform _transform;
+
     void Start()
     {
-        
+        _transform = GetComponent<Transform>();    
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Finish
+        _transform.position += new Vector3(0f, 0f, 0.02f);
     }
 }
