@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JumpScript : MonoBehaviour
 {
+    //This comment
     // Start is called before the first frame update
     void Start()
     {
